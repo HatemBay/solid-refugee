@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="203.0" prefWidth="208.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="donation.EventsUserEventCard">
+   <children>
+      <ImageView fx:id="poster" fitHeight="163.0" fitWidth="208.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="name" layoutX="6.0" layoutY="172.0" text="Name" />
+      <Button fx:id="joinLeave" layoutX="112.0" layoutY="168.0" mnemonicParsing="false" onAction="#onClickJoinLeave" text="J/L" />
+      <Button fx:id="details" layoutX="150.0" layoutY="168.0" mnemonicParsing="false" onAction="#onClickDetails" text="Details" />
+   </children>
+</AnchorPane>

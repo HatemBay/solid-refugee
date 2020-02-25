@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="35.0" prefWidth="573.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="donation.EventsAdminEventMemberCard">
+   <children>
+      <Button fx:id="kick" layoutX="521.0" layoutY="5.0" mnemonicParsing="false" onAction="#onClickKick" text="Kick" />
+      <Label fx:id="name" layoutX="14.0" layoutY="9.0" text="Label" />
+   </children>
+</AnchorPane>
