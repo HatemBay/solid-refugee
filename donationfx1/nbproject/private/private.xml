@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/Amin/Desktop/donationfx1/src/donationfx/AjoutApplicant.fxml</file>
+            <file>file:/C:/Users/Amin/Desktop/donationfx1/src/donationfx/DisplayApplicant.fxml</file>
+            <file>file:/C:/Users/Amin/Desktop/donationfx1/src/donationfx/action.fxml</file>
+            <file>file:/C:/Users/Amin/Desktop/donationfx1/src/utils/MaConnection.java</file>
+            <file>file:/C:/Users/Amin/Desktop/donationfx1/src/donationfx/AjoutApplicantController.java</file>
+            <file>file:/C:/Users/Amin/Desktop/donationfx1/src/Entity/Offer.java</file>
+            <file>file:/C:/Users/Amin/Desktop/donationfx1/src/Services/ServiceApplicant.java</file>
+            <file>file:/C:/Users/Amin/Desktop/donationfx1/src/Interfaces/IServiceOffer.java</file>
+            <file>file:/C:/Users/Amin/Desktop/donationfx1/src/donationfx/Donationfx.java</file>
+            <file>file:/C:/Users/Amin/Desktop/donationfx1/src/donationfx/DisplayApplicantController.java</file>
+            <file>file:/C:/Users/Amin/Desktop/donationfx1/src/Entity/Applicant.java</file>
+            <file>file:/C:/Users/Amin/Desktop/donationfx1/src/donationfx/AjoutAssociationController.java</file>
+            <file>file:/C:/Users/Amin/Desktop/donationfx1/src/donationfx/DisplayApplicantSController.java</file>
+            <file>file:/C:/Users/Amin/Desktop/donationfx1/src/donationfx/ActionController.java</file>
+            <file>file:/C:/Users/Amin/Desktop/donationfx1/src/Interfaces/IServiceApplicant.java</file>
+            <file>file:/C:/Users/Amin/Desktop/donationfx1/src/donationfx/ModifyAssociationController.java</file>
+            <file>file:/C:/Users/Amin/Desktop/donationfx1/src/Services/ServiceOffer.java</file>
+        </group>
+    </open-files>
+</project-private>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="donationfx.AfficherOffreController">
+   <children>
+      <Pane prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <TableView fx:id="Table" layoutX="7.0" prefHeight="342.0" prefWidth="593.0">
+              <columns>
+                <TableColumn fx:id="id" prefWidth="75.0" text="Id" />
+                <TableColumn fx:id="post" prefWidth="75.0" text="Post" />
+                  <TableColumn fx:id="description" prefWidth="114.0" text="description" />
+                  <TableColumn fx:id="type" prefWidth="79.0" text="Type" />
+                  <TableColumn fx:id="condition" prefWidth="95.0" text="Condition" />
+                  <TableColumn fx:id="DateAjout" prefWidth="154.0" text="Date Ajout" />
+              </columns>
+            </TableView>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

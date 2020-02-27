@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="donationfx.AjoutOffreController">
+   <children>
+      <Pane layoutX="-1.0" layoutY="1.0" prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <TextField fx:id="discription" layoutX="252.0" layoutY="192.0" />
+            <TextField fx:id="Type" layoutX="252.0" layoutY="268.0" />
+            <TextField fx:id="condition" layoutX="252.0" layoutY="345.0" />
+            <Label layoutX="64.0" layoutY="108.0" text="Post" />
+            <Label layoutX="64.0" layoutY="197.0" prefHeight="21.0" prefWidth="95.0" text="description" />
+            <Label layoutX="64.0" layoutY="284.0" prefHeight="21.0" prefWidth="72.0" text="Type" />
+            <Label layoutX="64.0" layoutY="350.0" prefHeight="21.0" prefWidth="84.0" text="Condition" />
+            <ChoiceBox fx:id="post" layoutX="250.0" layoutY="103.0" prefHeight="31.0" prefWidth="186.0" />
+            <Button layoutX="500.0" layoutY="192.0" mnemonicParsing="false" onAction="#ajouter" text="Ajouter" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

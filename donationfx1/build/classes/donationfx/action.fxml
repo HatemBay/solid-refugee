@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="affiche" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="donationfx.ActionController">
+   <children>
+      <ImageView fitHeight="720.0" fitWidth="1280.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../uploads/afficher.jpg" />
+         </image></ImageView>
+      <TableView fx:id="table" layoutX="289.0" layoutY="222.0" prefHeight="424.0" prefWidth="521.0">
+        <columns>
+            <TableColumn fx:id="name" prefWidth="154.0" text="NAME" />
+          <TableColumn fx:id="date" prefWidth="157.0" text="DATE" />
+          <TableColumn fx:id="location" minWidth="6.0" prefWidth="209.0" text="LOCATION" />
+        </columns>
+      </TableView>
+      <Button layoutX="939.0" layoutY="318.0" mnemonicParsing="false" onAction="#delete" text="Supprimer" />
+      <Button layoutX="948.0" layoutY="456.0" mnemonicParsing="false" onAction="#Modifier" text="Modifier" />
+      <TextField fx:id="rech" layoutX="798.0" layoutY="51.0" onAction="#rech" prefHeight="61.0" prefWidth="423.0" />
+   </children>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+</AnchorPane>
