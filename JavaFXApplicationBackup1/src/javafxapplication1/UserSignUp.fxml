@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication1.UserSignUpController">
+   <children>
+      <ImageView fitHeight="720.0" fitWidth="1280.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pics/signupUser_Plan%20de%20travail%201.jpg" />
+         </image>
+      </ImageView>
+      <TextField fx:id="USULastName" layoutX="727.0" layoutY="241.0" prefHeight="42.0" prefWidth="475.0" />
+      <TextField fx:id="USUEmail" layoutX="727.0" layoutY="302.0" prefHeight="42.0" prefWidth="475.0" />
+      <PasswordField fx:id="USUPassword" layoutX="727.0" layoutY="367.0" prefHeight="42.0" prefWidth="183.0" />
+      <PasswordField fx:id="USUPasswordC" layoutX="1011.0" layoutY="367.0" prefHeight="42.0" prefWidth="191.0" />
+      <TextField fx:id="USUFirstName" layoutX="727.0" layoutY="182.0" prefHeight="42.0" prefWidth="475.0" />
+      <TextField fx:id="USUTel" layoutX="727.0" layoutY="437.0" prefHeight="42.0" prefWidth="475.0" />
+      <TextField fx:id="USUAddress" layoutX="727.0" layoutY="501.0" prefHeight="42.0" prefWidth="475.0" />
+      <ComboBox fx:id="USUBlood" layoutX="727.0" layoutY="559.0" prefHeight="42.0" prefWidth="475.0" promptText="Not Assigned" />
+      <Button fx:id="USUSubmit" layoutX="1058.0" layoutY="627.0" mnemonicParsing="false" onAction="#userSignIn" prefHeight="48.0" prefWidth="139.0" style="-fx-background-color: #10919D; -fx-background-radius: 9;" text="Sign up" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Label alignment="BOTTOM_LEFT" layoutX="718.0" layoutY="189.0" text="*" textFill="#10919d">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label alignment="BOTTOM_LEFT" layoutX="718.0" layoutY="248.0" text="*" textFill="#10919d">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label alignment="BOTTOM_LEFT" layoutX="718.0" layoutY="308.0" text="*" textFill="#10919d">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label alignment="BOTTOM_LEFT" layoutX="718.0" layoutY="374.0" text="*" textFill="#10919d">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label alignment="BOTTOM_LEFT" layoutX="718.0" layoutY="444.0" text="*" textFill="#10919d">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label alignment="BOTTOM_LEFT" layoutX="718.0" layoutY="508.0" text="*" textFill="#10919d">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label alignment="BOTTOM_LEFT" layoutX="1002.0" layoutY="374.0" text="*" textFill="#10919d">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+      <Button fx:id="USUSubmit1" layoutX="145.0" layoutY="366.0" mnemonicParsing="false" onAction="#userSignInBack" prefHeight="49.0" prefWidth="286.0" style="-fx-background-color: #10919D; -fx-background-radius: 25;" text="Sign In" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Hyperlink layoutX="795.0" layoutY="632.0" onAction="#assocSU" prefHeight="40.0" prefWidth="243.0" style="-fx-background-color: #ffffff;" text="Sign up as an association">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Hyperlink>
+   </children>
+</AnchorPane>

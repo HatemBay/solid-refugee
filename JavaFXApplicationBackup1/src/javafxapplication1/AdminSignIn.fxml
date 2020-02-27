@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="374" prefWidth="447" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication1.AdminSignInController">
+    <children>
+      <Pane layoutX="26.0" layoutY="15.0" prefHeight="345.0" prefWidth="396.0" style="-fx-background-color: #ffffff;">
+         <children>
+              <Button fx:id="button" layoutX="229.0" layoutY="264.0" onAction="#adminSignUp" prefHeight="54.0" prefWidth="77.0" style="-fx-background-color: #4287f5;" text="Sign up" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Button>
+            <TextField fx:id="adminLogin" layoutX="75.0" layoutY="78.0" prefHeight="33.0" prefWidth="247.0" promptText="Login">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </TextField>
+            <PasswordField fx:id="adminPass" layoutX="75.0" layoutY="153.0" prefHeight="33.0" prefWidth="247.0" promptText="Password">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </PasswordField>
+            <Button fx:id="button1" layoutX="95.0" layoutY="264.0" onAction="#adminLogin" prefHeight="54.0" prefWidth="77.0" style="-fx-background-color: #4287f5;" text="Login" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Button>
+            <Button layoutX="322.0" layoutY="35.0" mnemonicParsing="false" onAction="#backRoot" text="&lt;-" />
+            <Hyperlink layoutX="73.0" layoutY="203.0" onAction="#passForgotten" text="Forgot your password?" />
+            <Label fx:id="emailSent" layoutX="75.0" layoutY="236.0" prefHeight="17.0" prefWidth="213.0" />
+         </children>
+         <effect>
+            <DropShadow blurType="GAUSSIAN" />
+         </effect>
+      </Pane>
+    </children>
+</AnchorPane>
