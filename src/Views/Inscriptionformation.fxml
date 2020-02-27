@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Views.InscriptionformationController">
+   <children>
+      <Label layoutX="46.0" layoutY="31.0" text="LISTE DES INSCRIPTIONS AU FORMATION" textFill="DODGERBLUE">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <TableView fx:id="tableinscription" layoutX="-2.0" layoutY="79.0" prefHeight="521.0" prefWidth="750.0">
+        <columns>
+          <TableColumn fx:id="idnomformation" prefWidth="231.0" text="Nom Formation" />
+          <TableColumn fx:id="iddateformation" prefWidth="270.0" text="Date Formation" />
+            <TableColumn fx:id="idnominscription" prefWidth="247.0" text="Nom Inscription" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="666.0" prefWidth="738.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Views.MailController">
+   <children>
+      <AnchorPane id="AnchorPane" layoutY="14.0" prefHeight="615.0" prefWidth="708.0" style=": ;" AnchorPane.bottomAnchor="-97.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="-108.0" AnchorPane.topAnchor="14.0">
+         <children>
+            <TextArea fx:id="mail" layoutX="151.0" layoutY="264.0" prefHeight="122.0" prefWidth="399.0" style="-fx-background-color: #BFBCC7;" />
+            <Button fx:id="send" layoutX="277.0" layoutY="435.0" mnemonicParsing="false" onAction="#SendMail" prefHeight="26.0" prefWidth="148.0" style="-fx-background-color: #7abf18;" text="Envoyer " />
+            <Label layoutX="245.0" layoutY="194.0" text="Veuillez saisir votre demande" textFill="#7abf18">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+         </children>
+         <stylesheets>
+            <URL value="@../../../Pidev_bon_plan/src/pidev_bon_plan/fxmllogin.css" />
+         </stylesheets>
+      </AnchorPane>
+   </children>
+</AnchorPane>

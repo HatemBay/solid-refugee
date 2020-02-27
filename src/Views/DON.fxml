@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Views.DONController">
+   <children>
+      <ImageView fitHeight="720.0" fitWidth="1280.0" layoutX="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../uploads/user_Plan%20de%20travail%201.jpg" />
+         </image>
+      </ImageView>
+      <TableView fx:id="listedon" layoutX="278.0" layoutY="196.0" prefHeight="483.0" prefWidth="939.0" style="-fx-background-color: #ffffff;">
+        <columns>
+          <TableColumn fx:id="nom" prefWidth="104.0" text="Location" />
+          <TableColumn fx:id="image" prefWidth="90.0" text="Image" />
+            <TableColumn fx:id="description" prefWidth="431.0" text="Description" />
+            <TableColumn fx:id="categorie" prefWidth="98.0" style="background color: #ffff;" text="Emergency" />
+            <TableColumn fx:id="categorie1" prefWidth="98.0" style="background color: #ffff;" />
+        </columns>
+         <effect>
+            <ColorAdjust />
+         </effect>
+      </TableView>
+      <Button layoutX="872.0" layoutY="685.0" mnemonicParsing="false" onAction="#modifierdon" style="-fx-background-color: #10919d;" text="Modifier" textFill="#ebebeb" />
+      <Button layoutX="1007.0" layoutY="684.0" mnemonicParsing="false" onAction="#supprimerdon" style="-fx-background-color: #8c1656;" text="Supprimer" textFill="WHITE" />
+   </children>
+</AnchorPane>

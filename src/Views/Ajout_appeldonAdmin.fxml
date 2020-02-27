@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Views.Ajout_appeldonAdminController">
+   <children>
+      <ImageView fitHeight="720.0" fitWidth="1280.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../uploads/admin_Plan%20de%20travail%201.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="625.0" layoutY="206.0" prefHeight="31.0" prefWidth="169.0" text="Add Request" textFill="#10919d">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+      <Label layoutX="358.0" layoutY="551.0" text="IMAGE:" />
+      <Label layoutX="351.0" layoutY="360.0" text="Description" />
+      <Label layoutX="345.0" layoutY="461.0" text="Emergency" />
+      <TextField fx:id="nom" layoutX="476.0" layoutY="251.0" prefHeight="25.0" prefWidth="485.0" />
+      <TextArea fx:id="description" layoutX="474.0" layoutY="321.0" prefHeight="99.0" prefWidth="485.0" />
+      <ComboBox fx:id="categorie" layoutX="474.0" layoutY="459.0" prefHeight="25.0" prefWidth="485.0" style="-fx-background-color: #10919d;" />
+      <ImageView fx:id="image" fitHeight="99.0" fitWidth="153.0" layoutX="476.0" layoutY="497.0" pickOnBounds="true" preserveRatio="true" />
+      <Button layoutX="669.0" layoutY="610.0" mnemonicParsing="false" onAction="#creerappeldon" style="-fx-background-color: #10919d;" text="Créer" textFill="#f5f5f5" />
+      <Button layoutX="892.0" layoutY="546.0" mnemonicParsing="false" onAction="#importerimage" style="-fx-background-color: #10919d;" text="Importer" textFill="#fffefe" />
+      <Label layoutX="358.0" layoutY="256.0" prefHeight="21.0" prefWidth="78.0" text="Location" />
+   </children>
+</AnchorPane>
