@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="main" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="donationfx.AjoutActionController">
+   <children>
+      <ImageView fx:id="background" fitHeight="720.0" fitWidth="1280.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../PIDEV/badge/int2_Plan%20de%20travail%201.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="323.0" layoutY="230.0" text="Name">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="320.0" layoutY="282.0" text="Date">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label layoutX="321.0" layoutY="333.0" text="Location">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label layoutX="321.0" layoutY="431.0" text="Type">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label layoutX="323.0" layoutY="482.0" text="Tools">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label layoutX="316.0" layoutY="379.0" text="Volunteers">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="location" layoutX="431.0" layoutY="330.0" prefHeight="34.0" prefWidth="325.0" />
+      <TextField fx:id="name" layoutX="431.0" layoutY="226.0" prefHeight="34.0" prefWidth="325.0" />
+      <Button fx:id="add" layoutX="743.0" layoutY="643.0" mnemonicParsing="false" onAction="#addAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 50;" text="+">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Button>
+      <TextField fx:id="volunteers" layoutX="431.0" layoutY="380.0" prefHeight="34.0" prefWidth="325.0" />
+      <Label layoutX="321.0" layoutY="557.0" text="Description">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="description" layoutX="431.0" layoutY="554.0" prefHeight="78.0" prefWidth="325.0" />
+      <CheckBox fx:id="former" layoutX="431.0" layoutY="431.0" mnemonicParsing="false" text="Former" />
+      <CheckBox fx:id="doctor" layoutX="521.0" layoutY="431.0" mnemonicParsing="false" text="Doctor" />
+      <CheckBox fx:id="teacher" layoutX="604.0" layoutY="431.0" mnemonicParsing="false" text="Teacher" />
+      <CheckBox fx:id="otherstype" layoutX="683.0" layoutY="431.0" mnemonicParsing="false" text="Others" />
+      <CheckBox fx:id="log" layoutX="431.0" layoutY="487.0" mnemonicParsing="false" text="Logistics" />
+      <CheckBox fx:id="hyg" layoutX="521.0" layoutY="487.0" mnemonicParsing="false" text="Hygiene" />
+      <CheckBox fx:id="shemters" layoutX="604.0" layoutY="487.0" mnemonicParsing="false" text="Shelters" />
+      <CheckBox fx:id="othertools" layoutX="683.0" layoutY="487.0" mnemonicParsing="false" text="Others" />
+      <Label fx:id="error" layoutX="611.0" layoutY="650.0" prefHeight="27.0" prefWidth="128.0" />
+      <DatePicker fx:id="date" layoutX="430.0" layoutY="278.0" prefHeight="34.0" prefWidth="325.0" />
+   </children>
+</AnchorPane>

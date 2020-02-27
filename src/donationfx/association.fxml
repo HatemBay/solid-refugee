@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="affiche" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="donationfx.AssociationController">
+   <children>
+      <ImageView fitHeight="720.0" fitWidth="1280.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../uploads/afficher.jpg" />
+         </image></ImageView>
+      <TableView fx:id="table" layoutX="289.0" layoutY="222.0" prefHeight="424.0" prefWidth="843.0">
+        <columns>
+            <TableColumn fx:id="logo" prefWidth="75.0" text="LOGO" />
+          <TableColumn fx:id="nom" prefWidth="87.0" text="NAME" />
+          <TableColumn fx:id="goals" minWidth="6.0" prefWidth="90.0" text="GOALS" />
+            <TableColumn fx:id="email" prefWidth="145.0" text="EMAIL" />
+            <TableColumn fx:id="address" minWidth="7.0" prefWidth="125.0" text="ADDRESS" />
+            <TableColumn fx:id="type" prefWidth="70.0" text="TYPE" />
+            <TableColumn fx:id="sub_date" minWidth="9.0" prefWidth="105.0" text="SUB_DATE" />
+            <TableColumn fx:id="description" prefWidth="145.0" text="DESCRIPTION" />
+        </columns>
+      </TableView>
+      <TextField fx:id="search" layoutX="801.0" layoutY="61.0" onKeyTyped="#search" prefHeight="48.0" prefWidth="414.0" />
+      <ComboBox fx:id="sortcombo" layoutX="801.0" layoutY="117.0" prefWidth="150.0" promptText="SORT BY :" />
+      <Button fx:id="sort" layoutX="956.0" layoutY="117.0" mnemonicParsing="false" onMousePressed="#sort" text="Sort" />
+      <Button fx:id="openupdate" layoutX="1202.0" layoutY="676.0" mnemonicParsing="false" onAction="#openmodifier" text="Update" />
+      <Button fx:id="opencreate" layoutX="1138.0" layoutY="676.0" mnemonicParsing="false" onAction="#opencreate" text="Create" />
+   </children>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+</AnchorPane>
